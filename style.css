@@ -11,3 +11,15 @@ h1, h2, h3 {
   text-align: center;
   color: #0369a1;
 }
+section {
+  padding: 60px 20px;
+}
+
+/* Hero */
+.hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  text-align: center;
+}
