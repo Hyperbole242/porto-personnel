@@ -87,3 +87,17 @@ section {
   height: 160px;
   object-fit: cover;
 }
+.projet-info {
+  padding: 16px;
+  text-align: center;
+}
+
+.tags {
+  display: inline-block;
+  margin-top: 8px;
+  padding: 4px 10px;
+  background: #0ea5e9;
+  color: #fff;
+  border-radius: 8px;
+  font-size: 0.8rem;
+}
