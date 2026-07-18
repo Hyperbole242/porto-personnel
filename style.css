@@ -63,3 +63,18 @@ section {
   background: #0ea5e9;
   border-radius: 12px;
 }
+/* Projets */
+.projets-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 24px;
+}
+
+.projet-card {
+  background: rgba(255,255,255,0.75);
+  backdrop-filter: blur(12px);
+  border-radius: 18px;
+  overflow: hidden;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.25);
+  transition: transform 0.4s;
+}
